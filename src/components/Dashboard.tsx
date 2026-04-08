@@ -33,9 +33,7 @@ export default function Dashboard() {
           <h1 className="text-[clamp(1.5rem,5vw,2.5rem)] font-extrabold tracking-tight leading-none text-gray-900">
             Cost Management
           </h1>
-          <p className="mt-3 text-gray-500 max-w-md italic">
-            "We didn't expect that" — Your real-time optimization engine.
-          </p>
+          <p className="mt-3 text-gray-500 max-w-md italic">Precision-engineered insights for high-performance cloud clusters.</p>
         </div>
         
         <div className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm transition-transform hover:scale-105 cursor-default">
