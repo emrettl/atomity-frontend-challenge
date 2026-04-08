@@ -1,31 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  /* Atomity/KubeCost Teması (Açık Tema) */
   --color-bg-primary: #F9FAFB;
   --color-bg-secondary: #FFFFFF;
   --color-text-primary: #111827;
   --color-text-secondary: #4B5563;
-  --color-accent-primary: #00D084; /* Videodaki canlı yeşil */
-  --color-accent-success: #10B981;
-  --color-accent-error: #EF4444;
+  --color-accent-primary: #10B981;
   --color-border-primary: #E5E7EB;
-}
-
-/* Koyu Tema (Eğer zaman kalırsa diye hazır olsun) */
-[data-theme='dark'] {
-  --color-bg-primary: #0F172A;
-  --color-bg-secondary: #1E293B;
-  --color-text-primary: #F8FAFC;
-  --color-text-secondary: #94A3B8;
-  --color-accent-primary: #00D084;
-  --color-border-primary: #334155;
 }
 
 body {
   background-color: var(--color-bg-primary);
   color: var(--color-text-primary);
-  font-family: Arial, Helvetica, sans-serif;
 }
